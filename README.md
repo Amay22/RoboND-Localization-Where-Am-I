@@ -42,17 +42,17 @@ $ source devel/setup.bash
 And then run the following in *separate* terminals -
 
 ``` bash
-$ roslaunch udacity_bot udacity_bot
-$ roslaunch udacity_bot amcl
-$ rosrun udacity_bot navigation goal
+$ roslaunch udacity_bot udacity_world.launch
+$ roslaunch udacity_bot amcl.launch
+$ rosrun udacity_bot navigation_goal
 ```
 
 To run the circular bot created by me run the following in *separate* terminals -
 
 ``` bash
-$ roslaunch udacity_bot udacity_bot
-$ roslaunch udacity_bot amcl
-$ rosrun udacity_bot navigation goal
+$ roslaunch my_bot udacity_world.launch
+$ roslaunch my_bot amcl.launch
+$ rosrun my_bot navigation_goal
 ```
 
 
